@@ -22,7 +22,7 @@ public class MyStringStack {
     public void push (String newElement) {
         if (newElement != null) v.add (newElement);
         MyStringStack stack = new MyStringStack();
-        stack.push (new MyStringStack());
+        stack.push ("test");
         assertTrue (stack.isEmpty());
     }
 
