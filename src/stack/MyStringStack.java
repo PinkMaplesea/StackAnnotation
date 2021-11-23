@@ -21,9 +21,6 @@ public class MyStringStack {
     private Vector<String> v = new Vector<String> ();
     public void push (String newElement) {
         if (newElement != null) v.add (newElement);
-        MyStringStack stack = new MyStringStack();
-        stack.push ("test");
-        assertTrue (stack.isEmpty());
     }
 
 /**
